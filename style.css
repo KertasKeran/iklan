@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top:0;
+    width: 100%;
+    background-color:coral;
+    justify-content: space-between;
+    position: fixed;
+    color:white;
+    padding: 10px;
+}
+.title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: bold;
+}
+nav a{
+    padding: 30px 25px 14px;
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+nav a:hover{
+    background-color:lemonchiffon;
+    transition:0.6s;
+    color:black;
+}
+section.home{
+    background: url("https://cdn.rri.co.id/berita/Ranai/o/1745458569247-kbrn_2/0vigmmtw88q335g.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+    padding-top: 100px;
+}
+section.about{
+    background-color: black;
+    height: 700px;
+}
+section.product{
+    background: url("https://cdn.kibrispdr.org/data/10/background-daun-pisang-29.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+}
+section.contacts{
+    background: url("https://img.freepik.com/premium-photo/headset-keyboard-computer-laptop_93675-5685.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    background-attachment: fixed;
+}
+footer{
+    height: 50px;
+    background-color: slategray;
+}
+section.home div{
+    text-align: center;
+    color: black;
+    margin: auto;
+    width: 70%;
+    padding: 70px;
+}
+section.home .hello{
+    font-size: 30px;
+}
+section.home a{
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.about div{
+    color: white;
+    text-align:center;
+    margin:auto;
+    width:70%;
+}
+section.about img{
+    height: 200px;
+}
+
+
+section.product{
+    background: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+    align-items: center;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    box-shadow: 3px;
+}
+section.product .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width:200px;
+    height: 480px;
+    margin:15px;
+    border-radius: 20px;
+    border: 7px solid black;
+}
+section.product .container .card img{
+    width:100%;
+}
+section.product .container .card a{
+    color:black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
